@@ -61,3 +61,10 @@ Please check the SeeData.cs*
 ## Video Demo 
 https://github.com/jindeveloper/Web-App-Sprout-Pet-Project/assets/39805502/04a9a088-113f-4ce3-bfff-1494fc43480b
 
+## If would be deployed to Production 
+### Here are some of my thoughts. 
+If this would be deployed to production, here are some of my thoughts: 
+*	Use docker or dockerize the application. 
+*	An onboarding feature would be fun to create. 
+*	Split the UI entirely from the ASP.NET Core application. 
+*	User Web API and separate the React.js application. 
