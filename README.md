@@ -57,3 +57,7 @@ Password: p@ssw0rd123Jin
 
 *Note: These credentials are automatically registered when the application starts.
 Please check the SeeData.cs*
+
+## Video Demo 
+https://github.com/jindeveloper/Web-App-Sprout-Pet-Project/assets/39805502/04a9a088-113f-4ce3-bfff-1494fc43480b
+
