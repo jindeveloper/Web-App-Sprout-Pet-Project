@@ -1,0 +1,10 @@
+﻿global using AutoMapper;
+global using FluentValidation;
+global using Microsoft.Extensions.DependencyInjection;
+global using Sprout.Exam.Business.DataTransferObjects;
+global using Sprout.Exam.Business.Profile;
+global using System;
+global using Sprout.Exam.Business.Factory;
+global using Sprout.Exam.Business.ModelValidation;
+global using Sprout.Exam.Domain.Enums;
+global using Sprout.Exam.Domain.Entities;

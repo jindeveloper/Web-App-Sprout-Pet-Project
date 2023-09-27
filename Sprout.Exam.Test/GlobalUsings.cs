@@ -1,0 +1,11 @@
+global using AutoMapper;
+global using FluentValidation;
+global using Microsoft.AspNetCore.Mvc;
+global using Moq;
+global using Sprout.Exam.Application.Employee;
+global using Sprout.Exam.Business.DataTransferObjects;
+global using Sprout.Exam.Business.Profile;
+global using Sprout.Exam.Domain.Entities;
+global using Sprout.Exam.WebApp.Controllers;
+global using Xunit;
+global using Sprout.Exam.Business.Factory;
