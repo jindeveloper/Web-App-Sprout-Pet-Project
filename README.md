@@ -43,3 +43,17 @@ So hopefully you’ll enjoy it.
 
 ## Project Structure
 ![image](https://github.com/jindeveloper/Web-App-Sprout-Pet-Project/assets/39805502/00cb06db-2004-4a79-b2b2-3b0c2d7f998c)
+
+## Side Notes 
+### Database 
+Anyone can restore the database. 
+Please look at the database folder and see the .bak file and SQL scripts.
+These are provided for anyone to restore the database on their local machine. 
+### User Credentials (To log in to the system) 
+
+Email: jin.necesario@uap.asia
+
+Password: p@ssw0rd123Jin
+
+*Note: These credentials are automatically registered when the application starts.
+Please check the SeeData.cs*
