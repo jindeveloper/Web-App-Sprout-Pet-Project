@@ -6,7 +6,7 @@ export class EmployeeCreate extends Component {
 
   constructor(props) {
     super(props);
-    this.state = { fullName: '',birthdate: '',tin: '',typeId: 1, loading: false,loadingSave:false };
+      this.state = { fullName: '', birthdate: '',tin: '',typeId: 1, loading: false,loadingSave:false };
   }
 
   componentDidMount() {
@@ -68,7 +68,14 @@ export class EmployeeCreate extends Component {
 
   async saveEmployee() {
     this.setState({ loadingSave: true });
-    const token = await authService.getAccessToken();
+      const token = await authService.getAccessToken();
+
+      if (this.state.birthdate === "" || this.state.fullName === "" || this.state.tin === "") {
+          this.setState({ loadingSave: false });
+          alert("Please fill up everything!")
+          return;
+      }
+
     const requestOptions = {
         method: 'POST',
         headers: !token ? {} : { 'Authorization': `Bearer ${token}`,'Content-Type': 'application/json' },
@@ -96,7 +103,6 @@ export class EmployeeCreate extends Component {
     }
     else {
         
-        console.log(response)
         alert("There was an error occured.");
     }
   }

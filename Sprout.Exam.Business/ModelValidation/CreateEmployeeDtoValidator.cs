@@ -8,8 +8,8 @@ namespace Sprout.Exam.Business.ModelValidation
         {
             RuleFor(createEmp => createEmp.FullName).NotEmpty().WithMessage("Fullname is required");
             RuleFor(createEmp => createEmp.Tin).NotEmpty().WithMessage("Tin is required");
-
-                                               
+            RuleFor(createEmp => createEmp.Birthdate).NotEmpty().WithMessage("Birthday is required");
+            
         }
     }
 }
